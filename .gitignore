@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts
+dist/
+build/
+.pytest_cache/
+.coverage
+
+# Environment & Credentials
+.env
+*.local
+serviceAccountKey.json
+
+# Storage & Temporary Files
+storage_data/
+*.log
+*.tmp
+test_document_200_pages.pdf
+
+# IDE & OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
